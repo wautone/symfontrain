@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc6e26bb-6233-4c4d-8182-b9e85cd75d3f" name="Default Changelist" comment="" />
+    <list default="true" id="cc6e26bb-6233-4c4d-8182-b9e85cd75d3f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/5f8fee711fc34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/5f8fee9deffea.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/5f8feec22ebb5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/5f8feeea5d3c5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/5f8fef0e9993f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/5f8fef3b30978.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/5f8fef60e93ff.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uploads/5f8fef903d8f4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Classe/Search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/SearchType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/phpunit" beforeDir="false" afterPath="$PROJECT_DIR$/bin/phpunit" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/boutiquefrancaise.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/boutiquefrancaise.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ProductRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ProductRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/product/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product/index.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +59,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -126,17 +171,23 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1iuephvjyGhIeFuMNQnpBDUCJcR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -149,46 +200,75 @@
       <updated>1602762088651</updated>
       <workItem from="1602762090188" duration="3160000" />
       <workItem from="1602767737117" duration="28918000" />
+      <workItem from="1603021430119" duration="2417000" />
+      <workItem from="1603092007692" duration="3855000" />
+      <workItem from="1603116328542" duration="6691000" />
+      <workItem from="1603272454047" duration="3269000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="412" y="88" key="#PHP" timestamp="1603092586534">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="412" y="88" key="#PHP/0.23.1440.833@0.23.1440.833" timestamp="1603092586534" />
     <state x="320" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602769542574">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="320" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.829@0.23.1440.829" timestamp="1602769542574" />
     <state x="320" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.831@0.23.1440.831" timestamp="1602768886242" />
-    <state x="458" y="200" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1602919639624">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state x="458" y="200" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603124421564">
+      <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state x="458" y="200" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1440.829@0.23.1440.829" timestamp="1602919639624" />
-    <state width="930" height="202" key="GridCell.Tab.0.bottom" timestamp="1602769580381">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state x="458" y="200" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1440.831@0.23.1440.831" timestamp="1603124421564" />
+    <state width="1358" height="202" key="GridCell.Tab.0.bottom" timestamp="1603097713711">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state width="930" height="202" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1602769580381" />
-    <state width="930" height="202" key="GridCell.Tab.0.center" timestamp="1602769580380">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state width="1358" height="202" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1603097713711" />
+    <state width="1358" height="202" key="GridCell.Tab.0.center" timestamp="1603097713710">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state width="930" height="202" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1602769580380" />
-    <state width="930" height="202" key="GridCell.Tab.0.left" timestamp="1602769580379">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state width="1358" height="202" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1603097713710" />
+    <state width="1358" height="202" key="GridCell.Tab.0.left" timestamp="1603097713693">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state width="930" height="202" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1602769580379" />
-    <state width="930" height="202" key="GridCell.Tab.0.right" timestamp="1602769580380">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state width="1358" height="202" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1603097713693" />
+    <state width="1358" height="202" key="GridCell.Tab.0.right" timestamp="1603097713710">
+      <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state width="930" height="202" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1602769580380" />
+    <state width="1358" height="202" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1603097713710" />
     <state x="543" y="368" key="NewPhpFileDialog" timestamp="1602935734866">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="543" y="368" key="NewPhpFileDialog/0.23.1440.829@0.23.1440.829" timestamp="1602935734866" />
-    <state x="378" y="49" width="1062" height="722" key="SettingsEditor" timestamp="1602767927078">
-      <screen x="0" y="23" width="1440" height="832" />
+    <state x="504" y="33" width="1062" height="722" key="SettingsEditor" timestamp="1603274593691">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="504" y="33" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603274593691" />
     <state x="278" y="23" width="1062" height="722" key="SettingsEditor/0.23.1440.830@0.23.1440.830" timestamp="1602767690235" />
-    <state x="378" y="49" key="SettingsEditor/0.23.1440.832@0.23.1440.832" timestamp="1602767927078" />
+    <state x="378" y="49" key="SettingsEditor/0.23.1440.832@0.23.1440.832" timestamp="1603091980057" />
   </component>
 </project>
