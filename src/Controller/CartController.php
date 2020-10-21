@@ -17,19 +17,10 @@ class CartController extends AbstractController
      */
     public function index(Cart $cart)
     {
-        $cartComplete = [];
-
-        foreach ($cart->get() as $id => $quantity){
-            $cartComplete[] = [
-                'product' => $this->getDoctrine()->getRepository(Product::class)->findOneById($id),
-                'quantity' => $quantity
-
-            ];
-        }
 
 
         return $this->render('cart/index.html.twig',[
-            'cart'=> $cartComplete
+            'cart'=> $cart->getFull()
         ]);
     }
     /**
