@@ -20,11 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc6e26bb-6233-4c4d-8182-b9e85cd75d3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Classe/Cart.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/CartController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/cart/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/minus-sign.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/shopping-cart.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/product/show.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/product/show.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/boutiquefrancaise.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/boutiquefrancaise.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classe/Cart.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classe/Cart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CartController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CartController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cart/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cart/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,8 +198,16 @@
       <workItem from="1603092007692" duration="3855000" />
       <workItem from="1603116328542" duration="6691000" />
       <workItem from="1603272454047" duration="6160000" />
-      <workItem from="1603279759324" duration="4632000" />
+      <workItem from="1603279759324" duration="8828000" />
     </task>
+    <task id="LOCAL-00001" summary="maj panier">
+      <created>1603284507899</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603284507899</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +228,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="maj pages produits" />
-    <option name="LAST_COMMIT_MESSAGE" value="maj pages produits" />
+    <MESSAGE value="maj panier" />
+    <option name="LAST_COMMIT_MESSAGE" value="maj panier" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Deployment" timestamp="1603276177709">
@@ -240,10 +254,10 @@
     </state>
     <state x="458" y="200" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1440.829@0.23.1440.829" timestamp="1602919639624" />
     <state x="458" y="200" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1440.831@0.23.1440.831" timestamp="1603124421564" />
-    <state x="585" y="1" key="CommitChangelistDialog2" timestamp="1603276324427">
+    <state x="585" y="1" key="CommitChangelistDialog2" timestamp="1603284504410">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="1" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603276324427" />
+    <state x="585" y="1" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603284504410" />
     <state width="1358" height="202" key="GridCell.Tab.0.bottom" timestamp="1603097713711">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
@@ -274,9 +288,9 @@
     <state x="504" y="33" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603279649823" />
     <state x="278" y="23" width="1062" height="722" key="SettingsEditor/0.23.1440.830@0.23.1440.830" timestamp="1602767690235" />
     <state x="378" y="49" key="SettingsEditor/0.23.1440.832@0.23.1440.832" timestamp="1603091980057" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1603276375414">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1603284516578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603276375414" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603284516578" />
   </component>
 </project>

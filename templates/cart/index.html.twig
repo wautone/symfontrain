@@ -5,43 +5,63 @@
 {% block content %}
     <h1>Mon Panier</h1>
     Retrouvez l'ensemble des produits de votre panier
-      <table class="table mt-3">
-        <thead>
-        <tr>
-            <th scope="col">Produit</th>
-            <th></th>
-            <th scope="col">Quantité</th>
-            <th scope="col">Prix</th>
-            <th scope="col">Total</th>
-        </tr>
-        </thead>
-        <tbody>
-        {% set total = null %}
-        {% for product in cart %}
-            <tr>
-                <td>
-                    <img src="/uploads/{{ product.product.illustration }}" alt="{{ product.product.name }}" height="75px">
 
-                </td>
-                <td>
-                    {{ product.product.name }}<br>
-                    <small>
-                        {{ product.product.subtitle }}
-                    </small>
+    {% if cart|length > 0 %}
+              <table class="table mt-3">
+                <thead>
+                <tr>
+                    <th scope="col">Produit</th>
+                    <th></th>
+                    <th scope="col">Quantité</th>
+                    <th scope="col">Prix</th>
+                    <th scope="col">Total</th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                {% set total = null %}
+                {% for product in cart %}
+                    <tr>
+                        <td>
+                            <img src="/uploads/{{ product.product.illustration }}" alt="{{ product.product.name }}" height="75px">
 
-                </td>
-                <td>x {{ product.quantity }}</td>
-                <td>{{ (product.product.price/100)| number_format(2) }}€</td>
-                <td>{{ ((product.product.price * product.quantity)/100)| number_format(2) }}€</td>
-            </tr>
-            {% set total = total + (product.product.price * product.quantity) %}
-        {% endfor %}
+                        </td>
+                        <td>
+                            {{ product.product.name }}<br>
+                            <small>
+                                {{ product.product.subtitle }}
+                            </small>
 
-        </tbody>
-    </table>
-    <div class="text-right mb-5">
-        <b>Nombre d'articles: </b>{{ cart|length}} <br>
-        <b>Total du panier :</b>{{ (total/100)| number_format(2) }} <br>
-        <a href="" class="btn btn-success btn-block">Valider mon panier</a>
-    </div>
+                        </td>
+                        <td>
+                            <a href="{{ path('decrease_cart', {'id': product.product.id }) }}">
+                                <img src="{{ asset('assets/img/minus-sign.png') }}" height="12px" alt="Supprimer un produit">
+                            </a>
+                            x {{ product.quantity }}
+                            <a href="{{ path('add_to_cart', {'id': product.product.id }) }}">
+                                <img src="{{ asset('assets/img/plus.png') }}" height="12px" alt="Ajouter un produit">
+                            </a>
+
+                        </td>
+                        <td>{{ (product.product.price/100)| number_format(2) }}€</td>
+                        <td>{{ ((product.product.price * product.quantity)/100)| number_format(2) }}€</td>
+                        <td><a href="{{ path('delete_to_cart', { 'id': product.product.id }) }}">
+                                <img src="{{ asset('assets/img/delete.png') }}" height="20px" alt="Supprimer mon produit">
+                            </a>
+                        </td>
+                    </tr>
+                    {% set total = total + (product.product.price * product.quantity) %}
+                {% endfor %}
+
+                </tbody>
+            </table>
+            <div class="text-right mb-5">
+                <b>Nombre d'articles: {{ cart|length}}</b> <br>
+                <b>Total du panier :{{ (total/100)| number_format(2) }}€</b>
+                <a href="" class="btn btn-success btn-block">Valider mon panier</a>
+            </div>
+    {% else %}
+        <hr>
+        <p><b>Votre Panier est vide</b></p>
+    {% endif %}
 {% endblock %}
