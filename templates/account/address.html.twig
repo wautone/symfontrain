@@ -3,11 +3,36 @@
 {% block title %}Mes Adresses  - La boutique française{% endblock %}
 
 {% block content %}
+    <a href="{{ path('account_adrress_add') }}" class="btn btn-info btn-sm float-right">Ajouter une adresse</a>
     <h1>Mes Adresses</h1>
     C'est dans cet espace que vous allez pouvoir gérer vos adresses. <br>
     <a href="{{ path('account') }}">Retour</a>
     <hr>
-        -- TODO -- Vue de mes adresses
+    {% if app.user.addresses|length == 0 %}
+       <p class="text-center">
+           <b>Vous n'avez pas encore d'adresses dans le compte client pour en ajouter une
+               <a href="{{ path('account_adrress_add') }}">cliquez ici</a>
+           </b>
+       </p>
+    {% else %}
+        <div class="row">
+           {% for address in app.user.addresses %}
+
+                   <div class="card col-md-4">
+                       <h5 class="card-header text-center">{{ address.name }}</h5>
+                       <div class="card-body">
+                           <p class="card-text">{{ address.adress }}</p>
+                           <p class="card-text">{{ address.country }}-{{ address.postal }} {{ address.city }}</p>
+                           <p class="card-text">Tel : {{ address.phone }}</p>
+                           <a href="{{ path('account_adrress_edit', {'id': address.id}) }}">Modifier</a> | <a href="{{ path('account_adrress_delete', {'id': address.id}) }}">Supprimer</a>
+                       </div>
+
+                   </div>
+
+            {% endfor %}
+        </div>
+    {% endif %}
+
     <hr>
 
 {% endblock %}
