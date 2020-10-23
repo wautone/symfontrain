@@ -69,6 +69,10 @@ class Address
      */
     private $city;
 
+    public function __tostring(){
+        return $this->getName().'[br]'.$this->getAdress().'[br]'.$this->getCountry().$this->getPostal().' '.$this->getCity();
+    }
+
     public function getId(): ?int
     {
         return $this->id;

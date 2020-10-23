@@ -20,11 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc6e26bb-6233-4c4d-8182-b9e85cd75d3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/CarrierCrudController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20201023065648.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20201023112057.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/OrderCrudController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/OrderController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Order.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/OrderDetails.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/OrderType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/OrderDetailsRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/OrderRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order/add.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/order/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/79d1b5b0-00c9-488b-ae03-1d0de5583436.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/79d1b5b0-00c9-488b-ae03-1d0de5583436.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/boutiquefrancaise.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/boutiquefrancaise.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/AccountAddressController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AccountAddressController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Address.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Address.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Carrier.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Carrier.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cart/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cart/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +212,9 @@
       <workItem from="1603272454047" duration="6160000" />
       <workItem from="1603279759324" duration="13111000" />
       <workItem from="1603356214740" duration="1204000" />
-      <workItem from="1603362955705" duration="13517000" />
+      <workItem from="1603362955705" duration="14220000" />
+      <workItem from="1603434465295" duration="26651000" />
+      <workItem from="1603466503277" duration="492000" />
     </task>
     <task id="LOCAL-00001" summary="maj panier">
       <created>1603284507899</created>
@@ -225,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603379364639</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mise en place transporteurs">
+      <created>1603379982625</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603379982625</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,10 +307,10 @@
     <state x="611" y="222" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603291083239" />
     <state x="458" y="200" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1440.829@0.23.1440.829" timestamp="1602919639624" />
     <state x="458" y="200" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.23.1440.831@0.23.1440.831" timestamp="1603124421564" />
-    <state x="585" y="1" key="CommitChangelistDialog2" timestamp="1603379360798">
+    <state x="585" y="1" key="CommitChangelistDialog2" timestamp="1603379980834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="1" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603379360798" />
+    <state x="585" y="1" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603379980834" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1603357730796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -313,15 +339,19 @@
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="543" y="368" key="NewPhpFileDialog/0.23.1440.829@0.23.1440.829" timestamp="1602935734866" />
-    <state x="504" y="33" width="1062" height="722" key="SettingsEditor" timestamp="1603279649823">
+    <state x="504" y="33" width="1062" height="722" key="SettingsEditor" timestamp="1603435727641">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="504" y="33" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603279649823" />
+    <state x="504" y="33" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603435727641" />
     <state x="278" y="23" width="1062" height="722" key="SettingsEditor/0.23.1440.830@0.23.1440.830" timestamp="1602767690235" />
     <state x="378" y="49" key="SettingsEditor/0.23.1440.832@0.23.1440.832" timestamp="1603091980057" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1603379377150">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1603379985242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603379377150" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603379985242" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1603437239952">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603437239952" />
   </component>
 </project>
